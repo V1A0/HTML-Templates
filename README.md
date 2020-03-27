@@ -1,1 +1,1 @@
-# HTML-templates
+# WEB-templates
