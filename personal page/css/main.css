@@ -1,0 +1,333 @@
+html {
+    background: #fff;
+}
+
+body {
+    background: #fff;
+    color: #545454;
+    font-family: BlinkMacSystemFont, Segoe UI, Helvetica, Arial;
+    #font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    #box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    #line-height: 1.5;
+    #margin: 0 auto;
+    #max-width: 800px;
+    #padding: 2em 2em 4em;
+}
+
+.hat {
+    align-items: center !important;
+    background: #24292e;
+    color: #ffffff;
+    height: 1.5em;
+    border-radius: 0em 0em 0.2em 0.2em;
+    /* уголки скругляет */
+    padding: 1.8em 2em 1.8em 2em;
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+
+.menu_block {
+    position: relative;
+    left: 1.4em;
+    top: 25%;
+}
+
+img.menu_but {
+    position: fixed;
+    width: 2em;
+    height: 1.4em;
+    right: 1.3em;
+    top: 1.5em;
+    cursor: pointer;
+}
+
+table.menu {
+    position: relative;
+    width: auto;
+    border: 0;
+}
+
+a.menu {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+td.menu {
+    font-size: 16px;
+    padding: 0em 2em 0em 1em;
+    /* Поля вокруг текста */
+}
+
+
+.roll {
+    color: #0;
+    position: absolute;
+    top: 8em;
+    width: 20%;
+    right: 4%;
+    max-width: 19em;
+    height: 100%
+}
+
+.subpic {
+    position: relative;
+    background-color: #6f42c1;
+    color: #ffff;
+    margin-top: -4px;
+    width: auto;
+    border-radius: 0em 0em 1em 1em;
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+}
+
+img.profile_pic {
+
+    border-radius: 1em 1em 0em 0em;
+    margin: 0;
+    width: auto;
+    max-width: 100%;
+
+}
+
+img.badge {
+    padding: 0.5em 0.4em 0em 0.1em;
+    height: 1.6em;
+    width: auto;
+}
+
+.content {
+    position: absolute;
+    top: 5.4em;
+    left: 2%;
+    width: 68%;
+    height: 100%;
+    #background-color: #f5e279;
+    color: black;
+    padding: 0.5em 1em 0.5em 1em;
+    #border: 1px solid red;
+    /*TEMP*/
+
+}
+
+div.info {
+    font-size: 18px;
+    line-height: 1.7;
+    padding: 1px 2px 2px 5px;
+
+}
+
+div.blocknote {
+    position: relative;
+    font-size: 0.8em;
+    padding: 0em 1em 2em 1em;
+    height: 10em;
+    border-radius: 4px;
+    background: #fff;
+    color: black;
+    border: 1px solid #d1d5da;
+    box-sizing: border-box;
+    top: 0.5em;
+    margin: 1em 0.5em 0.5em 1em;
+    float: left;
+    display: flow-root;
+    min-width: 390px;
+    max-width: 90%;
+}
+
+div.projects_list {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #d1d5da;
+    box-sizing: content-box;
+    width: 100%;
+    padding: 0em 0em 2em 0.2em;
+    bottom: 0;
+    display: flow-root;
+    min-width: 430px;
+    max-width: 840px;
+}
+
+div.PL_title {
+    position: relative;
+    padding-bottom: 52px;
+
+}
+
+div.textcontent {
+    position: relative;
+    top: 0;
+}
+
+a.black {
+    color: black;
+}
+
+.blue {
+    color: #0366d6;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+
+a.blue:visited {
+    color: #004ea7;
+    text-decoration: none;
+   }
+
+
+.superscript {
+    position: relative;
+    float: left;
+    margin-left: 4px;
+    margin-top: 18px;
+    margin-bottom: 0;
+    color: #6a737d;
+    font-size: 10px;
+    font-weight: 644;
+}
+
+/* 
+
+Начал колупаться с размером шрифтов и подгонять их под Git, но нужно брать немного больше ибо мне кажется так 
+приятнее глазу. По большому счету нужно просто масштаб в 90% от старой версии.
+
+
+Вроде закончил. Доделать Contact me.
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 0.3;
+
+}
+
+h2, .h2 {
+    font-size: 1.2em;
+    margin-left: 0.8em;
+    margin-top: 0.9em;
+    margin-bottom: 0;
+    color: #6a737d;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-left: 0.8em;
+    margin-bottom: 0;
+    font-weight: 300;
+    border: 1px solid #d1d5da;
+    padding: 0em 1em 2em 1em;
+
+}
+
+.h2 {
+    position: relative;
+    float: left;
+}
+
+
+b,
+strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+
+.subtitle {
+    white-space: pre;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* - - - - - - - - - - SHIELDS - - - - - - - -  */
+.shield {
+    margin-top: 10px;
+    position: relative;
+    float: left;
+}
+
+
+.L {
+    position: relative;
+    margin: 2px 2px 2px 2px;
+    border-radius: 5px;
+    background:  linear-gradient(#535353, #464646);
+    padding: 1px 0px 4px 10px;
+    width: 42px;
+    color: #fff;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    float: left;
+    text-shadow: 1px 1px #000;
+}
+
+.R {
+    position: relative;
+    margin: 2px 2px 2px 2px;
+    border-radius: 5px;
+    padding: 1px 6px 4px 7px;
+    margin: 2px -2px;
+    width: auto;
+    color: #fff;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    float: left;
+    text-shadow: 1px 1px #5a5a5a;
+}
+
+.s_python {
+    background:  linear-gradient(#ffc24f, #d67c01);
+}
+
+.s_html {
+    background:  linear-gradient(#e5713e, #d8510a);
+}
+
+.L.s_telegram {
+    width: auto;
+    padding-right: 8px;
+}
+
+.R.s_telegram {
+    background:  linear-gradient(#0cd0e0, #359cc9);
+}
+/* - - - - - - - - - - SHIELDS END - - - - - - - -  */
+
+
+.contact_me {
+    float: left;
+}
+
+.bn-h1 {
+    position: relative;
+    height: 25px;
+    width: 100%;
+
+}
+
+.bn-h2 {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}

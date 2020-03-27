@@ -1,0 +1,130 @@
+cr {
+CODE be V1A0 [github.com/V1A0/HTML-Templates];
+}
+
+html {
+    
+    color: aliceblue; 
+    font-family: BlinkMacSystemFont, Segoe UI, Helvetica, Arial;
+    font-size: 25px;
+    background: -webkit-gradient(linear, left top, left bottom, from( #6a4eaa ), to( #dd9292 )) fixed;
+    
+}
+
+body {
+
+}
+
+
+div.all {    
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: -webkit-gradient(linear, left top, left bottom, from( #0e151d ), to( #e5b0df )) fixed;
+    color: aliceblue;
+    
+    -webkit-animation: fadeInFromNone 4s ease-out;
+    -moz-animation: fadeInFromNone 4s ease-out;
+    -o-animation: fadeInFromNone 4s ease-out;
+    animation: fadeInFromNone 4s ease-out;
+}
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+div.midle {
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #22262a;
+    padding: 40px 40px 40px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
+    text-align: center;
+    
+    -webkit-animation: fadeInFromNone 1s ease-out;
+    -moz-animation: fadeInFromNone 1s ease-out;
+    -o-animation: fadeInFromNone 1s ease-out;
+    animation: fadeInFromNone 1s ease-out;
+    
+}
+
+
+.timer {
+    color: #666786;
+    height: 0px;
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 25px;
+}
