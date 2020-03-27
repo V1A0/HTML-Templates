@@ -1,8 +1,9 @@
-# WEB-templates
+HTML-templates
 
 - HTML Templates
 - CSS Templates
 - JS Templates
+- PHP Templates
 ---
 
 ## Top projects
