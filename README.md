@@ -19,6 +19,9 @@ Nice and simple template for two page website. Easy for remastering, have some c
 Beauty template for redirecting page. Easy for remastering, have awesome 4 seconds background animation.
 
 <img src="https://raw.githubusercontent.com/V1A0/HTML-Templates/master/screenshots/re_p.png" alt="example-screenshot" style="float: left;">
+
+#### Example gif-animation
+
 <img src="https://raw.githubusercontent.com/V1A0/HTML-Templates/master/screenshots/re.gif" alt="example-gif-animation" style="float: left;">
 
 # LICENSE MIT
