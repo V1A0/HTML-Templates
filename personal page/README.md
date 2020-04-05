@@ -17,5 +17,7 @@ Nice and simple template for two page website. Easy for remastering, have some c
 <img src="https://raw.githubusercontent.com/V1A0/HTML-Templates/master/screenshots/pp_p.png" alt="example-screenshot" style="float: left;" />
 
 
+<img src="https://raw.githubusercontent.com/V1A0/HTML-Templates/master/screenshots/pp_cm.png" alt="example-screenshot" style="float: left;" />
+
 # License MIT
 [MIT](https://choosealicense.com/licenses/mit/)
