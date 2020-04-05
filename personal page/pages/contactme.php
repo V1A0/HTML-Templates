@@ -28,9 +28,9 @@
                             <a class="menu" , href="../pages/contactme.php">Contact me</a>
                         </td>
                     </tr>
-
+<!--
                     <img class="menu_but" , src="../pic/icon-menu.png" , alt="Menu">
-
+-->
                 </table>
             </div>
 
@@ -39,7 +39,9 @@
     </header>
 
 
-    <div class="content">
+<div class="content">  
+   
+    <div class="feed">
         <h1>
             Contact me
         </h1>
@@ -61,11 +63,12 @@
 
 
             <div class="blocknote">
-                <h3 class="blue"> ✉️ <a href="nttps://t.me/V1A00" class="blue">
+                <h3 class="blue"> ✉️ <a href="tg://resolve?domain=v1a00" class="blue">
                         Telegram
                     </a>
                 </h3>
 
+               <!--
                 <div class="bn-h1">
                     <a href="tg://resolve?domain=v1a00">
                         <div class="shield">
@@ -74,7 +77,9 @@
                         </div>
                     </a>
                 </div>
-
+                -->
+                <div class="bn-h1"><a href="tg://resolve?domain=v1a00" class="black">@V1A00</a></div>
+                
                 <div class="bn-h2">Anytime ready for answer any your question</div>
             </div>
 
@@ -84,7 +89,7 @@
                         E-Mail
                     </a></h3>
 
-                <div class="bn-h1"><b>contact@v1a0.dev</b></div>
+                <div class="bn-h1"><a href="mailto:contact@v1a0.dev" class="black">contact@v1a0.dev</a></div>
                 <div class="bn-h2">Only for special requests, donations and issue reports.</div>
 
             </div>
@@ -97,7 +102,7 @@
                 </h3>
 
                 <div class="bn-h1">
-                    <a href="tg://resolve?domain=v1a00">
+                    <a href="tg://resolve?domain=v1a00" class="black">
                         LINK TO PUBLIC GPG KEY
                      </a>
                 </div>
@@ -109,6 +114,8 @@
         </div>
 
     </div>
-
-
+</div>
+<!--
+(С) V1A0 | https://github.com/V1A0/
+-->
 </body></html>

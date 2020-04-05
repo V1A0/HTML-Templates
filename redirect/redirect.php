@@ -32,6 +32,6 @@ setTimeout(() => { addon.innerHTML = ''; }, 4500);
 </body>
 
 <!--
-CODE by V1A0 [github.com/V1A0/HTML-Templates]
+CODE by V1A0 | https://github.com/V1A0/HTML-Templates
 -->
 </html>

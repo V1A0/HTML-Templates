@@ -1,5 +1,6 @@
 html {
     background: #fff;
+    min-width: 700px;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
     #margin: 0 auto;
     #max-width: 800px;
     #padding: 2em 2em 4em;
+    
 }
 
 .hat {
@@ -61,35 +63,94 @@ td.menu {
     /* Поля вокруг текста */
 }
 
+.content {
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 75% 35%;
+    margin-top: 30px;
+    min-width: 670px;
+    max-width: 1200px;
+}
+
 
 .roll {
-    color: #0;
-    position: absolute;
-    top: 8em;
-    width: 20%;
-    right: 4%;
-    max-width: 19em;
-    height: 100%
+    grid-column: 2;
+    grid-row: 1;
+    
+    margin-right: 120px;
+    padding-right: 20px;
+    margin-top: 10px;
+    max-width: 300px;
+    min-width: 150px;
+    height: 100%;
+    #border: 1px solid red;
 }
 
 .subpic {
+    /*
+    #6f42c1
+    */
+    
     position: relative;
-    background-color: #6f42c1;
-    color: #ffff;
+    background-color: #e7ddff;
+    color: #000;
     margin-top: -4px;
+    margin-bottom: 10px;
     width: auto;
-    border-radius: 0em 0em 1em 1em;
-    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0em 0em 5px 5px;
+    padding: 10px 1em 0.5em 1em;
+    text-align: center;
+    border: 1px solid #7c5dff;
+}
+
+.roll_button {
+    color: #1a0000;
+    background-color: #fcfcfc;
+    border: 1px solid #e3e3e3;
+    
+    position: relative;
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 1em 0.5em 1em;
+    margin: 10px 0 0 0;
     text-align: center;
 }
 
+    
+.red_button:hover {
+    color: #1a0000;
+    background-color: #ffdde6;
+    border: 1px solid #ff5d89;
+    box-shadow: 0px 0px 3px rgba(255, 200, 200, 0.34);
+}
+
+.green_button:hover {
+    color: #1a0000;
+    background-color: #ddffdd;
+    border: 1px solid #4dd94d;
+    box-shadow: 0px 0px 3px rgba(56, 195, 56, 0.1);
+}
+
+.dead_button {
+    color: #bfbfbf;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    text-decoration: line-through;
+}
+
+.dead_button:hover {
+
+    background-color: hsl(0, 0%, 99%);
+    border: 1px solid #e3e3e3;
+    box-shadow: 0px 0px 3px rgba(185, 185, 185, 0.1);
+}
+
+
 img.profile_pic {
-
-    border-radius: 1em 1em 0em 0em;
-    margin: 0;
-    width: auto;
+    border-radius: 5px 5px 0em 0em;
     max-width: 100%;
-
+    
 }
 
 img.badge {
@@ -98,16 +159,18 @@ img.badge {
     width: auto;
 }
 
-.content {
-    position: absolute;
-    top: 5.4em;
-    left: 2%;
-    width: 68%;
+.feed {
+    grid-column: 1;
+    grid-row: 1;
+    
+    position: relative;
+    margin-top: -5px;
+    margin-right: 30px;
+    margin-left: 30px;
     height: 100%;
-    #background-color: #f5e279;
     color: black;
-    padding: 0.5em 1em 0.5em 1em;
     #border: 1px solid red;
+    min-width: 450px;
     /*TEMP*/
 
 }
@@ -135,6 +198,7 @@ div.blocknote {
     display: flow-root;
     min-width: 390px;
     max-width: 90%;
+    box-shadow: 0px 0px 3px rgba(185, 185, 185, 0.1);
 }
 
 div.projects_list {
@@ -148,6 +212,7 @@ div.projects_list {
     display: flow-root;
     min-width: 430px;
     max-width: 840px;
+    box-shadow: 0px 0px 3px rgba(185, 185, 185, 0.1);
 }
 
 div.PL_title {
@@ -161,23 +226,33 @@ div.textcontent {
     top: 0;
 }
 
-a.black {
+.black {
     color: black;
+
 }
 
 .blue {
     color: #0366d6;
-    font-size: 16px;
     text-decoration: none;
 }
 
+.black:visited {
+    color: black;
 
+}
 
 a.blue:visited {
     color: #004ea7;
     text-decoration: none;
-   }
+}
 
+a.nodeco {
+    text-decoration: none;
+}
+
+a.nodeco:visited {
+    text-decoration: none;
+}
 
 .superscript {
     position: relative;
@@ -189,16 +264,6 @@ a.blue:visited {
     font-size: 10px;
     font-weight: 644;
 }
-
-/* 
-
-Начал колупаться с размером шрифтов и подгонять их под Git, но нужно брать немного больше ибо мне кажется так 
-приятнее глазу. По большому счету нужно просто масштаб в 90% от старой версии.
-
-
-Вроде закончил. Доделать Contact me.
-
-*/
 
 h1,
 h2,
@@ -217,7 +282,8 @@ h1 {
 
 }
 
-h2, .h2 {
+h2,
+.h2 {
     font-size: 1.2em;
     margin-left: 0.8em;
     margin-top: 0.9em;
@@ -260,7 +326,9 @@ samp {
 
 /* - - - - - - - - - - SHIELDS - - - - - - - -  */
 .shield {
-    margin-top: 10px;
+    margin: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
     position: relative;
     float: left;
 }
@@ -270,7 +338,7 @@ samp {
     position: relative;
     margin: 2px 2px 2px 2px;
     border-radius: 5px;
-    background:  linear-gradient(#535353, #464646);
+    background: linear-gradient(#535353, #464646);
     padding: 1px 0px 4px 10px;
     width: 42px;
     color: #fff;
@@ -295,11 +363,11 @@ samp {
 }
 
 .s_python {
-    background:  linear-gradient(#ffc24f, #d67c01);
+    background: linear-gradient(#ffc24f, #d67c01);
 }
 
 .s_html {
-    background:  linear-gradient(#e5713e, #d8510a);
+    background: linear-gradient(#e5713e, #d8510a);
 }
 
 .L.s_telegram {
@@ -308,8 +376,9 @@ samp {
 }
 
 .R.s_telegram {
-    background:  linear-gradient(#0cd0e0, #359cc9);
+    background: linear-gradient(#0cd0e0, #359cc9);
 }
+
 /* - - - - - - - - - - SHIELDS END - - - - - - - -  */
 
 
@@ -321,7 +390,8 @@ samp {
     position: relative;
     height: 25px;
     width: 100%;
-
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .bn-h2 {
@@ -329,5 +399,34 @@ samp {
     float: left;
     margin-top: 10px;
     margin-left: 5px;
-    
+
 }
+
+
+.small_grid {
+    display: grid;
+    grid-template-columns: auto;
+    border: 0px solid #000;
+   
+}
+
+.grid_lang {
+    grid-column: 1;
+
+
+}
+
+.grid_license {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+
+.grid_stars {
+
+    grid-column: 3;
+    margin-top: 3px;
+    margin-bottom: -2px;
+
+}
+

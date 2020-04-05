@@ -24,4 +24,5 @@ Beauty template for redirecting page. Easy for remastering, have awesome 4 secon
 
 <img src="https://raw.githubusercontent.com/V1A0/HTML-Templates/master/screenshots/re.gif" alt="example-gif-animation" style="float: left;">
 
-# LICENSE MIT
+# License MIT
+[MIT](https://choosealicense.com/licenses/mit/)

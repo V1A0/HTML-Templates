@@ -8,9 +8,12 @@
     <meta name="description" content="Personal page">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="https://v1a0.dev/pic/ico/favicon.ico" type="image/x-icon">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
+
+   
     <header>
         <div class="hat">
             <div class="menu_block">
@@ -29,8 +32,9 @@
                         </td>
                     </tr>
 
+<!--
                     <img class="menu_but" , src="pic/icon-menu.png" , alt="Menu">
-
+-->
                 </table>
             </div>
 
@@ -38,27 +42,37 @@
         </div>
     </header>
 
+<div class="content">
+   
     <div class="roll">
         <img class="profile_pic" , src="pic/v1a0_3000.jpg" , lowsrc="pic/v1a0_400.jpg" , alt="V1A0 profile picture">
         <div class="subpic">
             V1A0 default profile picture
         </div>
 
-        <div class="shield">
-            <div class="L">Lang</div>
-            <div class="R s_python">Python 3+</div>
-        </div>
-
-        <div class="shield">
-            <div class="L">Lang</div>
-            <div class="R s_html">HTML/CSS</div>
-        </div>
-
-
+        <a class="button nodeco" href="./vks">
+            <div class="roll_button red_button">
+                👁️ VKS online
+            </div>
+        </a>
+        
+        <a class="button nodeco" href="tg://resolve?domain=NOTgay_bot">
+            <div class="roll_button green_button">
+                🎲 Telegram Gay Bot
+            </div>
+        </a>
+   
+        <a class="button nodeco" href="tg://resolve?domain=donations_8m_bot">
+            <div class="roll_button dead_button">
+                Telegram 8M Bot
+            </div>
+        </a>   
+   
+   
     </div>
 
 
-    <div class="content">
+    <div class="feed">
         <h1>
             V1A0
         </h1>
@@ -88,6 +102,7 @@
 				📕 - red
 				📙 - orang	
 				⭐ - star
+				🟣 - purple
 			-->
 
                 <div class="PL_title">
@@ -107,7 +122,23 @@
                     <p>
                         Program for monitor your own online activity in vk.com
                     </p>
-                    <p class="subtitle">🔵 Python 3.7+    ⭐ 3    ⚖️ MIT License</p>
+
+                    <div class="small_grid">
+                        <div class="grid_lang">
+                            🔵 Python 3.7+
+                        </div>
+
+                        <div class="grid_stars">
+                            <a class="github-button" href="https://github.com/V1A0/VkScrapper" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-show-count="true" aria-label="Star V1A0/VkScrapper on GitHub">Star</a>
+                        </div>
+
+                        <div class="grid_license">
+                            ⚖️ MIT License
+                        </div>
+
+                    </div>
+
+
                 </div>
 
 
@@ -118,14 +149,55 @@
                     <p>
                         Telegram Bots
                     </p>
-                    <p class="subtitle">🔵 Python 3.7+    ⭐ 3    ⚖️ MIT License</p>
+                    <div class="small_grid">
+                        <div class="grid_lang">
+                            🔵 Python 3.7+
+                        </div>
+
+                        <div class="grid_stars">
+                            <a class="github-button" href="https://github.com/V1A0/Telegram-bots" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-show-count="true" aria-label="Star V1A0/Telegram-bots on GitHub">Star</a>
+                        </div>
+
+                        <div class="grid_license">
+                            ⚖️ MIT License
+                        </div>
+                    </div>
+               
                 </div>
 
+
+                <div class="blocknote">
+                    <h3 class="blue"> 📙 <a href="https://github.com/V1A0/HTML-Templates" class="blue">
+                            HTML-Templates
+                        </a></h3>
+                    <p>
+                        HTML/CSS/JS/PHP templates
+                    </p>
+                    <div class="small_grid">
+                        <div class="grid_lang">
+                            🟣 CSS
+                        </div>
+
+                      <div class="grid_license">
+                            ⚖️ MIT License
+                        </div>
+                       
+                        <div class="grid_stars">
+                            <a class="github-button" href="https://github.com/V1A0/HTML-Templates" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-show-count="true" aria-label="Star V1A0/HTML-Templates on GitHub" alt="Stars">Star</a>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
         </div>
 
     </div>
+</div>
+</body>
 
+<!--
+(С) V1A0 | https://github.com/V1A0/
+-->
 
-</body></html>
+</html>
