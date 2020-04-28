@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    width: 60%;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 25px;
+    font-size: 16px;
+    padding-left: 15%;
+    color: #ffffff;
+}
+
+h1{
+    font-weight: 100; 
+    opacity: 0.9;
+}
+
+
+.rainbow {
+    background: linear-gradient(55deg, #FFD33E 0%, #FB8533 19%, #EA4A5B 37%, #8A63D3 59%, #2188FE 80%, #34D059 100%);
+}
+
+.yellow {
+    background: linear-gradient(55deg, #ffa700 0%, #ffd836 50%, #ffa700 100%);
+}
+
+.fire {
+    background: linear-gradient(55deg, #f5c33c 0%, #f27a03 10%, #fd422a 60%, #f7a917 100%);
+}
+
+.sunrise {
+    background: linear-gradient(55deg, #c04ffc 0%, #f747ad 37%, #f737bc 59%, #ab40ed 80%, #5420ff 100%);
+}
+
+.water {
+    background: linear-gradient(90deg, #2ec9dd 0%, #2ad09d 60%, #17f77e 80%);
+}
+
+.rainbow-text{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700; 
+    opacity: 0.95;
+}
+
+.solid {
+    background: linear-gradient(55deg, #FFD33E 0%, #FB8533 19%, #EA4A5B 37%, #8A63D3 59%, #2188FE 80%, #34D059 100%);
+}
